@@ -53,6 +53,8 @@ body {
     border-radius: 30px; /* Bentuk tombol melengkung */
     text-align: center;
     font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0, 1);
+    transition: all 0,3s ease;
   }
   
   /* Responsif untuk perangkat mobile */
