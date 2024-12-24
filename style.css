@@ -26,7 +26,7 @@ body {
     color: white;
     border-radius: 100%;
     padding: 20px;
-    width: 190px;
+    width: 200px;
     display: inline-block;
     margin-bottom: 20px;
   }
@@ -56,12 +56,12 @@ body {
   }
   
   /* Responsif untuk perangkat mobile */
-  @media screen and (max-width: 100px) {
+  @media screen and (max-width: 768px) {
     .logo {
       font-size: 18px; /* Ukuran font logo lebih kecil untuk perangkat kecil */
       padding: 15px;
       margin-bottom: 10px;
-      width: 100px; 
+      width: 200px; 
       max-width:none
   }
   }
