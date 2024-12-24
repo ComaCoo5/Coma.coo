@@ -1,0 +1,67 @@
+/* Atur body */
+body {
+    background-image: url('background.jpeg');
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; /* Background putih */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Tinggi penuh layar */
+  }
+  
+  /* Container utama */
+  .container {
+    text-align: center;
+  }
+
+
+  
+  /* Logo */
+  .logo {
+    font-size: 24px; /* Ukuran font logo */
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    padding: 20px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  /* Judul */
+  .title {
+    font-size: 18px; /* Ukuran font judul */
+    margin-top: 20px;
+  }
+  
+  /* Tombol container */
+  .button-container {
+    display: flex;
+    flex-direction: column; /* Tombol ditumpuk secara vertikal */
+    gap: 15px; /* Jarak antar tombol */
+  }
+  
+  /* Tombol */
+  .button {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 30px; /* Bentuk tombol melengkung */
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Responsif untuk perangkat mobile */
+  @media screen and (max-width: 100px) {
+    .logo {
+      font-size: 18px; /* Ukuran font logo lebih kecil untuk perangkat kecil */
+      padding: 15px;
+      margin-bottom: 10px;
+      width: auto; 
+      max-width:none
+  }
+  }
